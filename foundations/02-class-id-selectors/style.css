@@ -1,0 +1,19 @@
+.oddnum {
+    background-color: #eea2ad;
+    font-family: 'Verdana','DejaVu Sans', sans-serif;
+}
+
+#num2 {
+    color:rgb(14, 14, 240);
+    font-size: 36px;
+}
+
+.uniqueclass{
+    font-size: 24px;
+}
+
+#num4 {
+   background-color: rgb(152, 219, 152);
+   font-size: 24px;
+   font-weight: 900;
+}
