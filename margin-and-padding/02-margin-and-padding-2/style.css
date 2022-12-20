@@ -20,8 +20,8 @@ body {
 
 .content {
   background: #e3f4ff;
+  padding:16px 8px;
   margin-bottom: 8px;
-  padding: 16px 8px;
 }
 
 .button-container {
@@ -34,6 +34,6 @@ button {
   display: block;
   background: white;
   border: 1px solid #eee;
-  margin: 0 auto;
   padding: 8px 24px;
+  margin: 0px auto;
 }
