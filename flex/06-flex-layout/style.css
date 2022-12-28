@@ -9,18 +9,19 @@ body {
   flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 5px;
+  padding: 16px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  padding: 5px;
-  gap: 10px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 } 
 
 a:link {
@@ -33,6 +34,7 @@ img {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,12 +58,5 @@ input {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #eeeeee;
-  padding: 5px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
